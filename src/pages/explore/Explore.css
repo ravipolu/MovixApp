@@ -1,0 +1,111 @@
+.explorePage {
+    min-height: 700px;
+    padding-top: 80px;
+}
+
+.infinite-scroll-component__outerdiv{
+    width: 95%;
+    margin: 0 auto 0 auto
+}
+
+.infinite-scroll-component{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.pageTitle{
+    padding-left: 15px;
+    font-size: 22px;
+}
+
+/* .resultNotFound {
+    font-size: 24px;
+    color: var(--black-light);
+}
+
+.pageHeader {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 25px;
+    flex-direction: column;
+}
+
+.pageTitle {
+    font-size: 24px;
+    line-height: 34px;
+    color: white;
+    margin-bottom: 20px;
+}
+
+.filters {
+    display: flex;
+    gap: 10px;
+    flex-direction: row;
+}
+
+.genresDD {
+    width: 50%;
+    color: black;
+}
+
+.sortbyDD {
+    width: 50%;
+    color: black;
+    flex-shrink: 0;
+}
+
+.react-select__control {
+    border: 0;
+    outline: 0;
+    box-shadow: none;
+    border-radius: 20px;
+    
+}
+
+.react-select__placeholder,  
+.react-select__input-container{
+    color: black;
+    margin: 0 10px;
+}
+
+.react-select__single-value {
+    color: black;
+}    
+
+
+.react-select__multi-value {
+    background-color: var(--black3);
+    border-radius: 10px;
+}
+
+.react-select__multi-value__label {
+    color: black;
+}
+
+.react-select__multi-value__remove {
+    background-color: transparent;
+    color: black;
+    cursor: pointer;
+}
+
+.react-select__multi-value__remove:hover {
+    color: var(--black-lighter);
+}
+
+.react-select__menu {
+    top: 40px;
+    margin: 0;
+    padding: 0;
+}
+
+.content {
+    display: flex;
+    flex-flow: row wrap;
+    gap: 10px;
+    margin-bottom: 50px;
+}
+
+
+.movieCard >.posterBlock {
+    margin-bottom: 30px;
+} */

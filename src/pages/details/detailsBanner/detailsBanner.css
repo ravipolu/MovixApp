@@ -1,0 +1,188 @@
+
+.movieDetailsBanner {
+    padding-top: 80px;
+    position: relative;
+}
+
+.movieDetailsBanner > .content {
+    width: 90%;
+    margin: 0 auto 0 auto ;
+    display: flex;
+    flex-flow: row;
+}
+
+.left {
+    width: 250px;
+    height: 500px;
+}
+
+.left > .lazy-load-image-background{
+    position: relative;
+    width: 250px;
+    height: 500px;
+}
+
+.moviePosterImg{
+    width: 100%;
+    height: 100%;
+    margin-right: 20px;
+    border-radius: 12px;
+    position: absolute;
+    z-index: 0;
+}
+
+.title {
+    padding-top: 5px;
+    font-size: 32px;
+    margin: 0;
+    height: fit-content;
+}
+
+.subTitle{
+    padding-top: 10px;
+    color: lightgray;
+}
+
+.right>.movieGenres{
+    display: flex;
+    padding: 10px 0;
+}
+
+.detailPageGenres{
+    padding: 7px 7px;
+    margin-right: 10px;
+}
+
+
+@media screen and (max-width:786px) {
+
+    .movieDetailsBanner {
+        padding-top: 0;
+    }
+
+    .movieDetailsBanner> .content{
+        width: 100%;
+    }
+
+    .left{
+        width: 100%;
+        height: 300px;
+    }
+
+    .left > .lazy-load-image-background{
+        width: 100%;
+        height: 100%;
+    }
+
+    .moviePosterImg{
+        width: 100%;
+        height: 100%;
+        border-radius: 0%;
+    }
+
+    .movieDetailsBanner >.content{
+        flex-direction: column;
+    }
+
+    .detailPageGenres{
+        display: flex;
+    }
+
+    .right{
+        width: 90%;
+        margin: 0 auto 0 auto ;
+    }
+
+    .title{
+        padding: 0 auto;
+        font-size: 22px;
+    }
+
+    .opacity-layer{
+        display: none;
+    }
+
+}
+
+.opacity-layer {
+    width: 100%;
+    height: 150px;
+    background: linear-gradient(
+        180deg,
+        rgba(4, 21, 45, 0) 0%,
+        #04152d 79.17%
+    );
+    position: absolute;
+    bottom: 0;
+    left: 0;
+}
+
+
+
+.playRow {
+    display: flex;
+}
+
+.playRow > .movieReviewRating {
+    width: 55px ;
+    height: 55px ;
+    background-color: white;
+    margin-bottom: 0;
+}
+
+.playbtn {
+    display: flex;
+    align-items: center;
+}
+.playbtn > svg {
+    width: 50px;
+    height: 50px;
+    /* color: red;  */
+    margin-left: 20px;
+}
+
+.playbtn > span {
+    margin-left: 20px;
+    font-size: larger;
+}
+
+.overView {
+    margin-top: 10px;
+    margin-bottom: 35px;
+}
+.heading {
+    color: lightgrey;
+    margin-bottom: 10px;
+}
+
+.description {
+    color: rgb(168, 164, 164);
+}
+
+.info {
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 35px;
+}
+
+.infoItem {
+    display: flex;
+    flex-direction: column;
+}
+
+.textbold {
+    font-size: 20px;
+    color: rgb(164, 177, 190);
+    padding-bottom: 10px;
+}
+
+.text {
+    color: var(--pink);
+}
+
+.creatorInfoItem{
+    margin-bottom: 10px;
+}
+
+
+
