@@ -65,6 +65,7 @@ const SearchResult = () =>{
                                 next={fetchNextPageData}
                                 hasMore={pageNum <= data?.total_pages}
                                 loader={<Spinner />}
+                                endMessage={<h2>END OF SEARCH RESULTS...</h2>}
                             >
                                 {data?.results.map((item, index) => {
                                     if (item.media_type === "person") return;

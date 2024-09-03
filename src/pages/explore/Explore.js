@@ -104,7 +104,7 @@ const Explore = () => {
                         : "Explore Movies"}
                 </div>
                 {/* <div className="filters">
-                    <Select
+                    <
                         isMulti
                         name="genres"
                         value={genre}

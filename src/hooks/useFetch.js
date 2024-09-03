@@ -9,7 +9,7 @@ const useFetch = (url) => {
 
     useEffect(() => {
 
-        setLoading("loading...");
+        setLoading(true);
         setData(null);
         setError(null);
 

@@ -23,7 +23,7 @@ const Carousel =({data , loading, endpoint })=>{
 
     const navigation=(dir)=>{
         const container = carouselContainer.current;
-        console.log(container);
+        // console.log(container);
         const scrollAmount = ( dir === "left" ? container.scrollLeft - (container.offsetWidth ) : container.scrollLeft + (container.offsetWidth ))
 
         container.scrollTo({
